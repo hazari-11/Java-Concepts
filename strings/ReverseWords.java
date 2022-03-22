@@ -1,17 +1,14 @@
-//package strings;
-//
-//import java.util.Scanner;
-//
-//public class ReverseWords {
-//
-//	public static void main(String[] args) {
-//		
-//
-//	}
-//}
+package strings;
+
+import java.util.Scanner;
+
 
 class Soution{
-	public String reverseWords(String s) {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any string : ");
+		String s = sc.nextLine();
 		
 		int i = s.length()-1 ;
 		
@@ -35,6 +32,7 @@ class Soution{
 				ans = ans.concat(" " + s.substring (i+1,j+1) ); //for spaces in between
 			}
 		}
+		System.out.println(ans);
 	}
 }
 

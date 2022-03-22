@@ -14,7 +14,7 @@ public class MainClass {
 		
 		Student obj = new Student("Tom");
 		
-		obj.name = "Jerry";  // as name is private in student.java
+//		obj.name = "Jerry";  // giving error as name is private in student.java
 		
 		obj.getPassword();  // as its private in student.java
 		
